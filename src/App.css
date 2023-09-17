@@ -1,0 +1,36 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+    "h"
+    "n"
+    "c"
+    "f";
+  grid-template-rows: 50px 74px 1fr 55px;
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+}
+
+@media (max-width: 1000px) {
+  .app-wrapper {
+    grid-template-rows: 50px 50px 1fr 55px;
+  }
+}
+
+@media (max-width: 420px) {
+  .app-wrapper {
+    grid-template-rows: 50px 50px 1fr 55px;
+  }
+}

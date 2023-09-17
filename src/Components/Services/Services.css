@@ -1,0 +1,220 @@
+.sevices {
+  /* height: 1fr; */
+  height: 2000px;
+}
+
+.mainText {
+  display: grid;
+  /* background-color: red; */
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.mainText span {
+  width: 624px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  background: linear-gradient(90.66deg, #a42525 10.11%, #2719cc 99.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.getBlock {
+  display: grid;
+  margin-top: 60px;
+  /* max-width: 1200px;
+  margin: 0 auto; */
+}
+
+.getBlockText {
+  display: block;
+  justify-self: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.getBlockText span {
+  width: 269px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #000000;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 272px 230px 270px;
+  justify-content: center;
+  align-content: center;
+  column-gap: 10%;
+  margin-top: 27px;
+  width: 100%;
+  height: 127px;
+  background: linear-gradient(
+      86.51deg,
+      rgba(255, 255, 255, 0.04) 45.19%,
+      rgba(219, 0, 255, 0.13) 82.04%,
+      rgba(255, 255, 255, 0.2) 120.64%
+    ),
+    linear-gradient(
+      86.38deg,
+      rgba(127, 255, 106, 0) 11.94%,
+      rgba(0, 148, 255, 0.042) 45.12%,
+      rgba(56, 207, 255, 0) 90.6%
+    ),
+    linear-gradient(
+      86.95deg,
+      rgba(255, 255, 255, 0.2) -33.46%,
+      rgba(143, 255, 0, 0.04) 14.05%,
+      rgba(255, 255, 255, 0.2) 73.02%
+    );
+}
+
+.items span {
+  display: grid;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+
+  color: #000000;
+}
+
+.itemsText {
+  display: grid;
+  justify-self: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  margin-top: 27px;
+  color: #000000;
+}
+
+.stages {
+  /* background-color: yellow; */
+  margin-top: 56px;
+  display: grid;
+}
+_black {
+  background-color: #000000;
+}
+
+.stagesText {
+  display: grid;
+  justify-self: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+  height: 30px;
+  /* background-color: red; */
+}
+
+.stagesText span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #000000;
+}
+
+.stagesBlock {
+  display: grid;
+  justify-content: center;
+  /* background-color: blue; */
+  /* height: 1099px; */
+  margin-top: 40px;
+}
+
+.firstItem {
+  display: grid;
+  /* background-color: black; */
+  width: 706px;
+  height: 60px;
+  grid-template-columns: 26px 1fr;
+  column-gap: 36px;
+}
+
+.numberOne {
+  display: grid;
+  align-self: center;
+  /* background-color: orange; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: 0.12em;
+  color: #000000;
+}
+
+.textOne {
+  /* background-color: brown; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  display: grid;
+  align-content: center;
+}
+
+.border {
+  display: grid;
+  justify-self: center;
+  width: 13px;
+  height: 37px;
+  background: #d9d9d9;
+  border-radius: 60px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.textTwo {
+  display: grid;
+  grid-template-rows: 30px 22px;
+  align-self: center;
+}
+
+.textTwo1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  /* width: 642px; */
+  color: #000000;
+}
+
+.textTwo2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.12em;
+
+  color: #6e6e73;
+}

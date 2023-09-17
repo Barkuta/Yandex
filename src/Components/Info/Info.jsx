@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import s from "./Info.module.css";
-import photoA from "../Assets/2023-09-16 18.11.33.jpg";
-import photoY from "../Assets/2023-09-16 18.11.46.jpg";
-import { DefaultPlayer as Video } from "react-html5video/dist";
-import video from "./../Assets/2023-09-16 18.37.29.mp4";
-import "react-html5video/dist/styles.css";
+import photoA from "../Assets/2023-09-17 15.14.38.jpg";
+import photoY from "../Assets/2023-09-17 15.15.19.jpg";
 
 const Info = () => {
   return (

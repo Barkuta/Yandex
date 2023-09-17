@@ -1,0 +1,159 @@
+.footer {
+  grid-area: f;
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 5px;
+  /* grid-template-rows: 50% 50%; */
+  height: 55px;
+  display: grid;
+  /* align-self: end; */
+}
+
+.tg img {
+  height: 30px;
+  width: 30px;
+}
+
+ion-icon {
+  --ionicon-stroke-width: 16px;
+  color: rgb(22, 181, 22);
+  font-size: 30px;
+}
+
+.inst ion-icon {
+  color: rgb(198, 94, 53);
+  font-size: 30px;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  column-gap: 15px;
+  align-content: center;
+  justify-content: center;
+}
+
+.rights {
+  display: grid;
+  width: 500px;
+  justify-self: center;
+  align-content: center;
+}
+
+.rights p {
+  display: grid;
+  align-self: center;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80%;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: white;
+  align-self: end;
+}
+
+@media (max-width: 1000px) {
+  .tg img {
+    height: 25px;
+    width: 25px;
+  }
+
+  ion-icon {
+    --ionicon-stroke-width: 16px;
+    color: rgb(22, 181, 22);
+    font-size: 25px;
+  }
+
+  .inst ion-icon {
+    color: rgb(198, 94, 53);
+    font-size: 25px;
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    column-gap: 12px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .rights {
+    display: grid;
+    width: 400px;
+    height: 40px;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 10px;
+  }
+
+  .rights p {
+    display: grid;
+    margin: 0;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75%;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.12em;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer {
+    grid-area: f;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 5px;
+    grid-template-rows: 70% 30%;
+    display: grid;
+  }
+
+  .tg img {
+    height: 20px;
+    width: 20px;
+  }
+
+  ion-icon {
+    --ionicon-stroke-width: 16px;
+    color: rgb(22, 181, 22);
+    font-size: 20px;
+  }
+
+  .inst ion-icon {
+    color: rgb(198, 94, 53);
+    font-size: 20px;
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    column-gap: 15px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .rights {
+    display: grid;
+    width: 300px;
+    height: 20px;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 10px;
+  }
+
+  .rights p {
+    display: grid;
+    margin: 0;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60%;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.12em;
+  }
+}

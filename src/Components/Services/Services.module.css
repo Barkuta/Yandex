@@ -1,0 +1,1195 @@
+.sevices {
+  height: 1fr;
+  /* height: 2000px; */
+}
+
+.mainText {
+  display: grid;
+  /* background-color: red; */
+
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.mainText span {
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
+  align-content: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  background: linear-gradient(157deg, #ae911d 10.11%, #2719cc 99.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.getBlock {
+  display: none;
+  margin-top: 60px;
+}
+
+.getBlockText {
+  display: block;
+  justify-self: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.getBlockText span {
+  width: 269px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  margin-left: 0px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 272px 230px 270px;
+  justify-content: center;
+  align-content: center;
+  column-gap: 10%;
+  margin-top: 27px;
+  width: 100%;
+  height: 127px;
+  background: linear-gradient(
+      86.51deg,
+      rgba(255, 255, 255, 0.04) 45.19%,
+      rgba(219, 0, 255, 0.13) 82.04%,
+      rgba(255, 255, 255, 0.2) 120.64%
+    ),
+    linear-gradient(
+      86.38deg,
+      rgba(127, 255, 106, 0) 11.94%,
+      rgba(0, 148, 255, 0.042) 45.12%,
+      rgba(56, 207, 255, 0) 90.6%
+    ),
+    linear-gradient(
+      86.95deg,
+      rgba(255, 255, 255, 0.2) -33.46%,
+      rgba(143, 255, 0, 0.04) 14.05%,
+      rgba(255, 255, 255, 0.2) 73.02%
+    );
+}
+
+.items span {
+  display: grid;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+
+  color: #000000;
+}
+
+.itemsText {
+  display: grid;
+  justify-self: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  margin-top: 27px;
+  color: #000000;
+}
+
+.stages {
+  background-color: white;
+  display: grid;
+  transition: 2s;
+}
+
+.stagesBlack {
+  background-color: black;
+  display: grid;
+  transition: 2s;
+}
+
+.stagesText {
+  display: grid;
+  justify-self: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+  height: 30px;
+  /* background-color: red; */
+}
+
+.stagesText span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  transition: 2s;
+}
+
+.stagesTextWhite {
+  display: grid;
+  justify-self: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+  height: 30px;
+
+  /* background-color: red; */
+}
+
+.stagesTextWhite span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  transition: 2s;
+}
+
+.stagesBlockWrapper {
+  display: grid;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.stagesBlock {
+  display: grid;
+  justify-content: center;
+  z-index: 1;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+
+.wrapperBlueStick {
+  height: 0;
+  display: grid;
+  justify-content: start;
+}
+
+.blueStick {
+  display: block;
+  width: 2px;
+  height: 500px;
+  background: none;
+  transform: translate(40px, 200px) rotate(-20deg);
+  transition: 2s;
+}
+
+.blueStickTrue {
+  display: block;
+  width: 2px;
+  height: 500px;
+  background: #1b74e3;
+  transform: translate(40px, 200px) rotate(-20deg);
+  transition: 2s ease-in-out 1s;
+}
+
+.wrapperYellowStick {
+  display: grid;
+  transform: translate(-150px, 400px) rotate(209deg);
+  justify-self: end;
+  width: 0px;
+  height: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 0px;
+  justify-content: end;
+}
+
+.yellowStick {
+  display: block;
+  width: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 300px;
+  background: none;
+  transition: 2s;
+}
+
+.yellowStickTrue {
+  display: block;
+  width: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 300px;
+  background: #f5dd6b;
+  /* transform: rotate(273deg); */
+  transition: 2s ease-in-out 1.5s;
+}
+
+.wrapperGreenStick {
+  display: grid;
+  transform: translate(-200px, 1100px) rotate(295deg);
+  justify-self: end;
+  justify-content: end;
+  height: 0;
+}
+
+.greenStick {
+  display: block;
+  width: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 215px;
+  /* transform: rotate(273deg); */
+  background: none;
+  transition: 2s;
+}
+
+.greenStickTrue {
+  display: block;
+  width: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 215px;
+  /* transform: rotate(273deg); */
+  background: #04af3a;
+  transition: 2s ease-in-out 1.5s;
+}
+
+.firstItem {
+  margin-top: 10px;
+  display: grid;
+  width: 706px;
+  height: 60px;
+  grid-template-columns: 26px 1fr;
+  column-gap: 36px;
+}
+
+.numberOne {
+  display: grid;
+  align-self: center;
+  /* background-color: orange; */
+}
+
+.numberOne span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  transition: 2s;
+}
+
+.numberOneWhite {
+  display: grid;
+  align-self: center;
+  /* background-color: orange; */
+}
+
+.numberOneWhite span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  transition: 2s;
+}
+
+.textOne {
+  /* background-color: brown; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  display: grid;
+  align-content: center;
+  transition: 2s;
+}
+
+.textOneWhite {
+  /* background-color: brown; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: white;
+  display: grid;
+  align-content: center;
+  transition: 2s;
+}
+
+.border {
+  display: grid;
+  justify-self: center;
+  width: 13px;
+  height: 37px;
+  background: #d9d9d9;
+  border-radius: 60px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.textTwo {
+  display: grid;
+  grid-template-rows: 30px 22px;
+  align-self: center;
+}
+
+.textTwo1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  /* width: 642px; */
+  color: #000000;
+  transition: 2s;
+}
+
+.textTwo1White {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  /* width: 642px; */
+  color: white;
+  transition: 2s;
+}
+
+.textTwo2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.12em;
+
+  color: #6e6e73;
+}
+
+.textTwo11 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  align-self: center;
+  /* width: 642px; */
+  color: #000000;
+  transition: 2s;
+}
+
+.textTwo11White {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  align-self: center;
+  /* width: 642px; */
+  color: white;
+  transition: 2s;
+}
+
+@media (max-width: 1000px) {
+  .mainText span {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    height: 72px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    background: linear-gradient(157deg, #ae911d 10.11%, #2719cc 99.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .getBlockText span {
+    width: 269px;
+    height: 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    justify-content: center;
+    align-content: center;
+    column-gap: 4%;
+    margin-top: 27px;
+    width: 100%;
+    height: 127px;
+    background: linear-gradient(
+        86.51deg,
+        rgba(255, 255, 255, 0.04) 45.19%,
+        rgba(219, 0, 255, 0.13) 82.04%,
+        rgba(255, 255, 255, 0.2) 120.64%
+      ),
+      linear-gradient(
+        86.38deg,
+        rgba(127, 255, 106, 0) 11.94%,
+        rgba(0, 148, 255, 0.042) 45.12%,
+        rgba(56, 207, 255, 0) 90.6%
+      ),
+      linear-gradient(
+        86.95deg,
+        rgba(255, 255, 255, 0.2) -33.46%,
+        rgba(143, 255, 0, 0.04) 14.05%,
+        rgba(255, 255, 255, 0.2) 73.02%
+      );
+  }
+
+  .items span {
+    display: grid;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+
+    color: #000000;
+  }
+
+  .itemsText {
+    display: grid;
+    justify-self: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    margin-top: 27px;
+    color: #000000;
+  }
+
+  .stagesText span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .firstItem {
+    display: grid;
+
+    width: 650px;
+    height: 60px;
+    grid-template-columns: 26px 1fr;
+    column-gap: 36px;
+  }
+
+  .numberOne {
+    display: grid;
+    align-self: center;
+  }
+
+  .numberOne span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 61px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textOne {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textOneWhite {
+    /* background-color: brown; */
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo1 {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo1White {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo2 {
+    color: #6e6e73;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 22px;
+  }
+
+  .textTwo11 {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .stages {
+    display: grid;
+  }
+
+  .textTwo11White {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 718px) {
+  .getBlock {
+    display: none;
+  }
+  .mainText span {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    height: 72px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    background: linear-gradient(157deg, #ae911d 10.11%, #2719cc 99.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .stages {
+    display: grid;
+  }
+
+  .items {
+    display: grid;
+    grid-template-rows: 50px 30px 30px;
+    gap: 20px;
+    grid-template-columns: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 27px;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(
+        86.51deg,
+        rgba(255, 255, 255, 0.04) 45.19%,
+        rgba(219, 0, 255, 0.13) 82.04%,
+        rgba(255, 255, 255, 0.2) 120.64%
+      ),
+      linear-gradient(
+        86.38deg,
+        rgba(127, 255, 106, 0) 11.94%,
+        rgba(0, 148, 255, 0.042) 45.12%,
+        rgba(56, 207, 255, 0) 90.6%
+      ),
+      linear-gradient(
+        86.95deg,
+        rgba(255, 255, 255, 0.2) -33.46%,
+        rgba(143, 255, 0, 0.04) 14.05%,
+        rgba(255, 255, 255, 0.2) 73.02%
+      );
+  }
+
+  .getBlockText span {
+    width: 269px;
+    height: 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .stagesText {
+    display: none;
+    justify-self: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+  }
+
+  .firstItem {
+    display: grid;
+    width: 575px;
+    height: 60px;
+    grid-template-columns: 26px 1fr;
+    column-gap: 36px;
+  }
+
+  .numberOne {
+    display: grid;
+    align-self: center;
+  }
+
+  .numberOne span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textOne {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textOneWhite {
+    /* background-color: brown; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textTwo1White {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.12em;
+    color: #6e6e73;
+  }
+
+  .textTwo11White {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .stagesTextWhite {
+    display: none;
+    justify-self: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .stages {
+    display: grid;
+  }
+  .mainText span {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    height: 72px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    background: linear-gradient(157deg, #ae911d 10.11%, #2719cc 99.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .items {
+    display: grid;
+    grid-template-rows: 50px 30px 30px;
+    gap: 20px;
+    grid-template-columns: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 27px;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(
+        86.51deg,
+        rgba(255, 255, 255, 0.04) 45.19%,
+        rgba(219, 0, 255, 0.13) 82.04%,
+        rgba(255, 255, 255, 0.2) 120.64%
+      ),
+      linear-gradient(
+        86.38deg,
+        rgba(127, 255, 106, 0) 11.94%,
+        rgba(0, 148, 255, 0.042) 45.12%,
+        rgba(56, 207, 255, 0) 90.6%
+      ),
+      linear-gradient(
+        86.95deg,
+        rgba(255, 255, 255, 0.2) -33.46%,
+        rgba(143, 255, 0, 0.04) 14.05%,
+        rgba(255, 255, 255, 0.2) 73.02%
+      );
+  }
+  .items span {
+    display: grid;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+
+    color: #000000;
+  }
+
+  .itemsText {
+    display: grid;
+    justify-self: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    margin-top: 27px;
+    color: #000000;
+  }
+
+  .getBlockText span {
+    width: 269px;
+    height: 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .stagesText {
+    display: none;
+    justify-self: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+  }
+
+  .firstItem {
+    display: grid;
+    width: 525px;
+    height: 60px;
+    grid-template-columns: 26px 1fr;
+    column-gap: 36px;
+  }
+
+  .numberOne {
+    display: grid;
+    align-self: center;
+  }
+
+  .numberOne span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textOne {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    display: grid;
+    align-content: center;
+  }
+
+  .textOneWhite {
+    /* background-color: brown; */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textTwo1White {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.12em;
+    color: #6e6e73;
+  }
+
+  .textTwo11White {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .stagesTextWhite {
+    display: none;
+    justify-self: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainText span {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    height: 72px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    background: linear-gradient(157deg, #ae911d 10.11%, #2719cc 99.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .getBlock {
+    display: none;
+    margin-top: 30px;
+    /* max-width: 1200px;
+    margin: 0 auto; */
+  }
+
+  .items {
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    gap: 20px;
+    grid-template-columns: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 27px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(
+        86.51deg,
+        rgba(255, 255, 255, 0.04) 45.19%,
+        rgba(219, 0, 255, 0.13) 82.04%,
+        rgba(255, 255, 255, 0.2) 120.64%
+      ),
+      linear-gradient(
+        86.38deg,
+        rgba(127, 255, 106, 0) 11.94%,
+        rgba(0, 148, 255, 0.042) 45.12%,
+        rgba(56, 207, 255, 0) 90.6%
+      ),
+      linear-gradient(
+        86.95deg,
+        rgba(255, 255, 255, 0.2) -33.46%,
+        rgba(143, 255, 0, 0.04) 14.05%,
+        rgba(255, 255, 255, 0.2) 73.02%
+      );
+  }
+  .items span {
+    display: grid;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    margin-left: 10px;
+    color: #000000;
+  }
+
+  .stages {
+    /* background-color: yellow; */
+
+    display: grid;
+  }
+
+  .stagesText {
+    display: none;
+    justify-self: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+  }
+
+  .itemsText {
+    display: grid;
+    justify-self: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    margin-top: 27px;
+    color: #000000;
+  }
+
+  .getBlockText span {
+    width: 269px;
+    height: 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .stagesText span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .stagesTextWhite {
+    display: none;
+    justify-self: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+  }
+
+  .firstItem {
+    display: grid;
+    width: 350px;
+    height: 60px;
+    grid-template-columns: 26px 1fr;
+    column-gap: 5%;
+  }
+
+  .numberOne {
+    display: grid;
+    align-self: center;
+  }
+
+  .numberOne span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 61px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textOne {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textOneWhite {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+    color: #000000;
+  }
+
+  .textTwo1White {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.12em;
+    color: #6e6e73;
+  }
+
+  .border {
+    display: grid;
+    justify-self: center;
+    width: 10px;
+    height: 34px;
+    background: #d9d9d9;
+    border-radius: 60px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  .textTwo11 {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+
+  .textTwo11White {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    line-height: 30px;
+  }
+}
