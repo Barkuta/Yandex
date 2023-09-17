@@ -25,11 +25,7 @@ const Info = () => {
           <div className={s.videoBlockText}>
             <span>Screencast CSS</span>
           </div>
-          <div className={s.video}>
-            <Video>
-              <source src={video} type="video/webm" />
-            </Video>
-          </div>
+          <div className={s.video}></div>
         </div>
       </div>
     </div>
