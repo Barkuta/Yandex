@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Yandex/static/css/main.6e4e4a68.css",
-    "main.js": "/Yandex/static/js/main.11e69dfa.js",
-    "static/js/787.56655dc1.chunk.js": "/Yandex/static/js/787.56655dc1.chunk.js",
-    "static/media/skrin1.png": "/Yandex/static/media/skrin1.4a98a47b315258e2e670.png",
-    "static/media/Desktop.png": "/Yandex/static/media/Desktop.7dd29f6a14ffe584751e.png",
-    "static/media/2023-09-16 18.11.46.jpg": "/Yandex/static/media/2023-09-16 18.11.46.f65d1d1ffa864f529d66.jpg",
-    "static/media/2023-09-16 18.11.33.jpg": "/Yandex/static/media/2023-09-16 18.11.33.deb57e4690caac992e9b.jpg",
-    "static/media/IMG_1165.JPG": "/Yandex/static/media/IMG_1165.65b75d4a483a0af0765b.JPG",
-    "static/media/IMG_1166.JPG": "/Yandex/static/media/IMG_1166.ce11bfa2f4e8ba788c1b.JPG",
-    "static/media/IMG_1167.JPG": "/Yandex/static/media/IMG_1167.95e4d8bfc8626ffce7b2.JPG",
-    "static/media/IMG_1164.JPG": "/Yandex/static/media/IMG_1164.0225f082e01b8ae37ba9.JPG",
-    "index.html": "/Yandex/index.html",
-    "main.6e4e4a68.css.map": "/Yandex/static/css/main.6e4e4a68.css.map",
-    "main.11e69dfa.js.map": "/Yandex/static/js/main.11e69dfa.js.map",
-    "787.56655dc1.chunk.js.map": "/Yandex/static/js/787.56655dc1.chunk.js.map"
+    "main.css": "./static/css/main.091480e3.css",
+    "main.js": "./static/js/main.fa72c60f.js",
+    "static/js/787.56655dc1.chunk.js": "./static/js/787.56655dc1.chunk.js",
+    "static/media/skrin1.png": "./static/media/skrin1.4a98a47b315258e2e670.png",
+    "static/media/Desktop.png": "./static/media/Desktop.7dd29f6a14ffe584751e.png",
+    "static/media/2023-09-17 15.15.19.jpg": "./static/media/2023-09-17 15.15.19.f65d1d1ffa864f529d66.jpg",
+    "static/media/2023-09-17 15.14.38.jpg": "./static/media/2023-09-17 15.14.38.deb57e4690caac992e9b.jpg",
+    "static/media/IMG_1165.JPG": "./static/media/IMG_1165.65b75d4a483a0af0765b.JPG",
+    "static/media/IMG_1166.JPG": "./static/media/IMG_1166.ce11bfa2f4e8ba788c1b.JPG",
+    "static/media/IMG_1167.JPG": "./static/media/IMG_1167.95e4d8bfc8626ffce7b2.JPG",
+    "static/media/IMG_1164.JPG": "./static/media/IMG_1164.0225f082e01b8ae37ba9.JPG",
+    "index.html": "./index.html",
+    "main.091480e3.css.map": "./static/css/main.091480e3.css.map",
+    "main.fa72c60f.js.map": "./static/js/main.fa72c60f.js.map",
+    "787.56655dc1.chunk.js.map": "./static/js/787.56655dc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e4e4a68.css",
-    "static/js/main.11e69dfa.js"
+    "static/css/main.091480e3.css",
+    "static/js/main.fa72c60f.js"
   ]
 }
